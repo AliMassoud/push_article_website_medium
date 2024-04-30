@@ -1,0 +1,6 @@
+requests
+Markdown
+beautifulsoup4
+click
+python-dotenv
+pyperclip
