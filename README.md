@@ -1,8 +1,14 @@
-# Push Markdown to Github Pages Website AND to you Medium Blog
+# Push Hugo Website Markdown to Medium Blog
 ### <span style="color: red"> Disclaimer: </span> This code uses medium APIs V1 which is deprecated. It has been a year since they archived their APIs. However, it <span style="color: green"> STILL works</span>. so I am still using it to push my markdown articles to medium.
 
 
-I use Hugo to build my website and I write my articles in markdown. I also have a medium blog where I write articles. I wanted to automate the process of pushing my articles to both my website and my medium blog. I found two interesting resources that I make it easy for me. This code is a combination of the two resources and I added some modifications to constumize it to my needs.
+I use Hugo to build my website and I write my articles in markdown. I also have a medium blog where I write articles. I wanted to automate the process of pushing my articles to both my website and my medium blog. I found two interesting resources that made it easy for me. This code is a combination of the two resources and I added some modifications to constumize it to my needs.
+
+## Objective
+Convert Hugo markdown to medium post and push it to medium.
+
+------------------------------------
+## Steps
 
 to use this project please follow the steps below:  
 1. Get your **Medium integration token** from your medium account settings (at the bottom of Security and apps section), then create `.env` file and paste the token in it as follows:
